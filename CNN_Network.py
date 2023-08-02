@@ -162,5 +162,6 @@ if __name__ == '__main__':
         else:
             print("NON-HEALTHY")
 
+
         log_data = pd.read_csv('training.log', sep=',', engine='python')
         plot_graph(log_data)
